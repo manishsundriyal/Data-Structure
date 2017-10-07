@@ -71,13 +71,13 @@ while(c<4 && c>0){
 		break;
 
 		case 2:
-			cout<<"Enter Item that you want to find\n";
+			cout<<"Enter Item that you want to find:\n";
 			cin>>item;
 
 			int f;
 			f=search(start,item);
 			if(f==0){
-				cout<<"Item Not Found\n";
+				cout<<"Item Not Found.\n";
 			}
 		break;
 
